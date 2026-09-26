@@ -28,8 +28,7 @@ public class User {
     private String email;
     private String password;
     private String firstName="default";
-    private String lastName;
-
+    private String lastName = "Unknown";
     @Enumerated(EnumType.STRING)
     private UserRole role=UserRole.USER;
 
