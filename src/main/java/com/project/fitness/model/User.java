@@ -30,6 +30,7 @@ public class User {
     private String firstName="default";
     private String lastName;
     private String phone = "0000000000";
+    private String address = "Default Address";
     @Enumerated(EnumType.STRING)
     private UserRole role=UserRole.USER;
 
