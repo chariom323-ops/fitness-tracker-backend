@@ -29,7 +29,7 @@ public class User {
     private String password;
     private String firstName="default";
     private String lastName;
-
+    private String phone = "0000000000";
     @Enumerated(EnumType.STRING)
     private UserRole role=UserRole.USER;
 
