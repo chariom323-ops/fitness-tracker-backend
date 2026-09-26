@@ -25,7 +25,7 @@ public class User {
     @GeneratedValue(strategy=GenerationType.UUID)
     private String id;
     @Column(unique = true)
-    private String email;
+    private String email = "default@email.com";
     private String password;
     private String firstName="default";
     private String lastName;
